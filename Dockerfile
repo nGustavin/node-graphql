@@ -14,7 +14,7 @@ RUN yarn install
 COPY . .
 
 # Defining Container port
-EXPOSE 4692
+EXPOSE 4000
 
 # Running server
 CMD ["yarn", "dev"]
